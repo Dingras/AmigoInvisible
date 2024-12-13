@@ -22,10 +22,13 @@ Esta es una aplicación creada con el espíritu navideño para sorprender a Juli
 ## 🎄 Capturas de Pantalla
 
 1. **Pantalla Principal:**
-   ![Pantalla Principal](https://via.placeholder.com/600x400?text=Captura+1)
+   (https://github.com/Dingras/AmigoInvisible/blob/main/public/inicio.png?raw=true)
 
 2. **Vista Detallada:**
-   ![Vista Detallada](https://via.placeholder.com/600x400?text=Captura+2)
+   (https://github.com/Dingras/AmigoInvisible/blob/main/public/quiz.png?raw=true)
+
+3. **Vista Detallada:**
+   (https://github.com/Dingras/AmigoInvisible/blob/main/public/adivina.png?raw=true)
 
 ---
 
