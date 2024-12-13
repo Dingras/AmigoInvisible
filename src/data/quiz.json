@@ -1,0 +1,23 @@
+[
+    {
+      "question": "¿Cuál es la capital de Francia?",
+      "answers": ["Berlín", "Madrid", "París", "Roma"],
+      "correctAnswer": "París"
+    },
+    {
+      "question": "En casa somos:",
+      "answers": ["2", "5", "3", "4"],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Me identifico como:",
+      "answers": ["Hombre", "Mujer", "No binario", "LGTBQ+"],
+      "correctAnswer": "Hombre"
+    },
+    {
+      "question": "Me gusta el:",
+      "answers": ["Baile", "Tenis", "Patin Artistico", "Automovilismo"],
+      "correctAnswer": "Automovilismo"
+    }
+  ]
+  

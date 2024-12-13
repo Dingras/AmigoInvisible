@@ -1,0 +1,30 @@
+.congrats-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 95vw; /* Asegúrate que se ajuste al tamaño deseado */
+    max-width: 600px; /* Para que no sea demasiado ancho */
+    margin: auto;
+  }
+  
+  .congrats-gif-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .congrats-gif {
+    width: 100%;
+    border-radius: 10px; /* Redondeo de bordes */
+  }
+
+  .btn-back{
+    justify-content: center;
+  }
+.container-congrats{
+    justify-items: center;
+}
+  

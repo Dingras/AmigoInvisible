@@ -1,0 +1,18 @@
+.nes-container{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    max-width: 600px;
+}
+
+.nes-container p {
+    margin: 0.5em 0;
+}
+
+.nes-container button {
+    margin: 0.5em 0;
+}
+
+.nes-progress{
+    margin: 0 !important;
+}

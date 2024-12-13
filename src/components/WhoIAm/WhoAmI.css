@@ -1,0 +1,16 @@
+.nes-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 95vw;
+}
+.nes-container p {
+    margin: 0.5em 0;
+}
+.nes-container input {
+    margin: 0.5em 0;
+}
+
+.nes-container button {
+    margin: 0.5em 0;
+}
