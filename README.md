@@ -9,7 +9,7 @@
 Esta es una aplicación creada con el espíritu navideño para sorprender a Julieta y ayudarla a descubrir quién es su amigo invisible.
 
 <div align="center">
-    <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/Para%20Julieta.png?raw=true" alt="Decoración navideña" width="80%">
+    <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/Para%20Julieta.png?raw=true" alt="Decoración navideña" width="60%">
 </div>
 
 ## ⭐ Características Principales:
@@ -29,13 +29,13 @@ Esta es una aplicación creada con el espíritu navideño para sorprender a Juli
        <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/inicio.png?raw=true" alt="Inicio">
    </div>
 
-2. **Vista Detallada:**
+2. **Vista Preguntas:**
 
    <div align="center">
        <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/quiz.png?raw=true" alt="Preguntas">
    </div>
 
-3. **Vista Final:**
+3. **Vista Adivinar:**
 
    <div align="center">
        <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/adivina.png?raw=true" alt="Adivina">
@@ -47,7 +47,7 @@ Esta es una aplicación creada con el espíritu navideño para sorprender a Juli
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/Dingras/AmigoInvisible
    ```
 
 2. Instala las dependencias:
