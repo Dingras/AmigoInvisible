@@ -8,7 +8,9 @@
 
 Esta es una aplicación creada con el espíritu navideño para sorprender a Julieta y ayudarla a descubrir quién es su amigo invisible.
 
-![Decoración navideña](https://github.com/Dingras/AmigoInvisible/blob/main/public/Para%20Julieta.png?raw=true)
+<div align="center">
+    <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/Para%20Julieta.png?raw=true" alt="Decoración navideña" width="80%">
+</div>
 
 ## ⭐ Características Principales:
 
@@ -23,15 +25,21 @@ Esta es una aplicación creada con el espíritu navideño para sorprender a Juli
 
 1. **Pantalla Principal:**
 
-   ![Inicio](https://github.com/Dingras/AmigoInvisible/blob/main/public/inicio.png?raw=true)
+   <div align="center">
+       <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/inicio.png?raw=true" alt="Inicio">
+   </div>
 
 2. **Vista Detallada:**
 
-   ![Preguntas](https://github.com/Dingras/AmigoInvisible/blob/main/public/quiz.png?raw=true)
+   <div align="center">
+       <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/quiz.png?raw=true" alt="Preguntas">
+   </div>
 
-3. **Vista Detallada:**
+3. **Vista Final:**
 
-   ![Adivina](https://github.com/Dingras/AmigoInvisible/blob/main/public/adivina.png?raw=true)
+   <div align="center">
+       <img src="https://github.com/Dingras/AmigoInvisible/blob/main/public/adivina.png?raw=true" alt="Adivina">
+   </div>
 
 ---
 
