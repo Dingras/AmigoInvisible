@@ -59,7 +59,7 @@ const Quiz = () => {
           </button>
         ))}
       <br />
-      <progress className="nes-progress is-warning" value={currentQuestionIndex} max={questions.length}></progress>
+      <progress className="nes-progress is-warning" value={currentQuestionIndex+1} max={questions.length+1}></progress>
     </div>
   );
 };

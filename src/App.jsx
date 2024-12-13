@@ -1,7 +1,6 @@
 import { useWindowSize } from 'react-use'
 import Snowfall from 'react-snowfall'
-import Quiz from './components/Quiz/Quiz'
-import WhoAmI from './components/WhoIAm/WhoAmI'
+import SantaAnimation from './components/SantaAnimation/SantaAnimation'
 
 const App = ({children})=> {
   const { width, height } = useWindowSize()
@@ -17,6 +16,7 @@ const App = ({children})=> {
         width={width}
         height={height}
       />
+      <SantaAnimation/>
       {children}
     </>
   )

@@ -1,8 +1,8 @@
 [
     {
-      "question": "¿Cuál es la capital de Francia?",
-      "answers": ["Berlín", "Madrid", "París", "Roma"],
-      "correctAnswer": "París"
+      "question": "¿De qué lugar creen que soy, según mi gentilicio?",
+      "answers": ["Marplatense", "Juarense", "Bahiense", "Mapuche"],
+      "correctAnswer": "Juarense"
     },
     {
       "question": "En casa somos:",
@@ -16,7 +16,7 @@
     },
     {
       "question": "Me gusta el:",
-      "answers": ["Baile", "Tenis", "Patin Artistico", "Automovilismo"],
+      "answers": ["Baile", "Tenis", "Equitacion", "Automovilismo"],
       "correctAnswer": "Automovilismo"
     }
   ]

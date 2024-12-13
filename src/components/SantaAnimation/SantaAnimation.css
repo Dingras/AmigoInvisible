@@ -1,0 +1,32 @@
+/* SantaAnimation.css */
+.santa-container {
+    position: fixed;
+    top: 15vh; /* Punto inicial en la pantalla */
+    left: -200px; /* Empieza fuera de la pantalla */
+    z-index: 10; /* Asegúrate de que esté encima */
+    animation: santaMove 10s linear infinite, santaWave 2s ease-in-out infinite;
+  }
+  
+  .santa-img {
+    width: 200px; /* Ajusta el tamaño */
+    transform: scaleX(-1);
+  }
+  
+  @keyframes santaMove {
+    0% {
+      left: -200px;
+    }
+    100% {
+      left: 100vw; /* Se mueve hasta fuera del lado derecho */
+    }
+  }
+  
+  @keyframes santaWave {
+    0%, 100% {
+      transform: translateY(0); /* Posición normal */
+    }
+    50% {
+      transform: translateY(-20px); /* Se eleva un poco */
+    }
+  }
+  
