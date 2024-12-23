@@ -13,6 +13,7 @@ const WhoAmI = () => {
   const navigate = useNavigate()
 
   const correctAnswer = 'Fernando' // La respuesta correcta
+  const helpMessage = '¡Vamos! Vos podes, no es tan difícil.' // Mensaje de ayuda
 
   const correctSound = new Audio(correctSoundFile)
   const wrongSound = new Audio(wrongSoundFile)
@@ -43,7 +44,7 @@ const WhoAmI = () => {
 
   return (
     <>
-      {help && <Error message="¡Vamos! Vos podes." />}
+      {help && <Error message={helpMessage} />}
       <div className="nes-container is-dark">
         <p>¿Quién soy?</p>
         <input

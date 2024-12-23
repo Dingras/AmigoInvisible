@@ -28,7 +28,7 @@
     position: relative;
     top: 20px;
     z-index: -1;
-    animation: slide-up 1.5s ease-out forwards; /* Animación suave */
+    animation: slide-up 1.2s ease-out forwards; /* Animación suave */
 }
 
 @keyframes slide-up {

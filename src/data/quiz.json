@@ -3,25 +3,25 @@
     "question": "¿De qué lugar creen que soy?",
     "answers": ["Mar del Plata", "Benito Juárez", "Bahía Blanca", "Buenos Aires"],
     "correctAnswer": "Benito Juárez",
-    "help":"Dale... que no está tan lejos."
+    "help":"Es un simbolo de amistad.😊"
   },
   {
     "question": "En mi casa somos:",
     "answers": ["2", "5", "3", "4"],
     "correctAnswer": "3",
-    "help":"Piensa en algo impar pero no tan grande."
+    "help":"Piensa en algo impar pero no tan grande.😉"
   },
   {
-    "question": "Me identifico como:",
-    "answers": ["Hombre", "Mujer", "No binario", "Perro"],
-    "correctAnswer": "Hombre",
-    "help":"Responde como un ..."
+    "question": "Estudie:",
+    "answers": ["Informática", "Abogacía", "Administración", "Doctorado en Vagancia"],
+    "correctAnswer": "Informática",
+    "help":"Hice todo esto.🖥️"
   },
   {
     "question": "Me gusta el:",
     "answers": ["Baile", "Tenis", "Equitación", "Automovilismo"],
     "correctAnswer": "Automovilismo",
-    "help":"Rumm Rummm."
+    "help":"Pasalo a Nafta.😜"
   }
 ]
 
