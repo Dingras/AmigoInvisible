@@ -12,14 +12,14 @@ const WhoAmI = () => {
   const [correct, setCorrect] = useState(false)
   const navigate = useNavigate()
 
-  const correctAnswer = 'Fernando' // La respuesta correcta
+  const correctAnswers = ['Fernando','Fer','Fernan', 'Ferni'] // La respuesta correcta
   const helpMessage = '¡Vamos! Vos podes, no es tan difícil.' // Mensaje de ayuda
 
   const correctSound = new Audio(correctSoundFile)
   const wrongSound = new Audio(wrongSoundFile)
 
   const handleSubmit = () => {
-    if (inputValue.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+    if (correctAnswers.some(answer => inputValue.trim().toLowerCase() === answer.toLowerCase())) {
       correctSound.play() // Reproducir sonido correcto
       setCorrect(true)
       setHelp(false)

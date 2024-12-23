@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './Congrats.css';
 import celebrationGif from '../../assets/images/celebration.gif';
+import celebrationImg from '../../assets/images/celebration.png';
 import { useNavigate } from 'react-router-dom';
 import Confetti from 'react-confetti';
 
@@ -40,9 +41,9 @@ const Congrats = () => {
                 />
                 <h2 className="nes-text is-warning">¡Felicidades!</h2>
                 <div className="congrats-gif-container">
-                    <img src={celebrationGif} alt="Celebration" className="congrats-gif" />
+                    <img src={celebrationImg} alt="Celebration" className="congrats-gif" />
                 </div>
-                <p className="congrats-text">🎉🎉¡Me descubriste!🎉🎉</p>
+                <p className="congrats-text">🎉¡Me descubriste!🎉</p>
             </div>
             <br />
             <button className="nes-btn is-warning" onClick={handlerBack}>
