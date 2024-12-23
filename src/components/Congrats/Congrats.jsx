@@ -16,12 +16,14 @@ const Congrats = () => {
 
     const handlerImage = () => {
         Swal.fire({
+            title: 'Feliz navidad Juli🎄',
             imageUrl: 'https://github.com/Dingras/AmigoInvisible/blob/main/src/assets/images/celebration_img.png?raw=true',
-            imageHeight: '50vh',
             background: '#212529',
             customClass: {
+                title: 'nes-text is-error',
                 confirmButton: 'nes-btn is-warning',
-                image: 'congrats-gif'
+                image: 'congrats-gif',
+                popup: 'nes-container is-dark',
             }
         });
     }
