@@ -16,7 +16,7 @@ const Congrats = () => {
 
     const handlerImage = () => {
         Swal.fire({
-            imageUrl: 'https://github.com/Dingras/AmigoInvisible/blob/main/src/assets/images/celebration.png?raw=true',
+            imageUrl: 'https://github.com/Dingras/AmigoInvisible/blob/main/src/assets/images/celebration_img.png?raw=true',
             imageHeight: '50vh',
             background: '#212529',
             customClass: {
