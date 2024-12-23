@@ -1,29 +1,24 @@
+import soundIcon from './assets/images/sound.png'
 import { useWindowSize } from 'react-use'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Snowfall from 'react-snowfall'
 import SantaAnimation from './components/SantaAnimation/SantaAnimation'
 import jingleBells from './assets/sounds/jingle-bells.mp3'
+import './App.css'
 
 const App = ({children})=> {
   const { width, height } = useWindowSize()
   const [audioPlayed, setAudioPlayed] = useState(false);
 
   // Función para manejar la interacción del usuario y reproducir el audio
-  const handleUserInteraction = () => {
+  const handleAudio = () => {
     if (!audioPlayed) {
       setAudioPlayed(true);
+
+    }else{
+      setAudioPlayed(false);
     }
   };
-
-  useEffect(() => {
-    // Detecta un clic en cualquier lugar de la página para activar el audio
-    window.addEventListener('click', handleUserInteraction);
-
-    // Limpieza del evento cuando el componente se desmonta
-    return () => {
-      window.removeEventListener('click', handleUserInteraction);
-    };
-  }, [audioPlayed]);
 
   return (
     <>
@@ -34,6 +29,9 @@ const App = ({children})=> {
             Tu navegador no soporta el formato de audio.
           </audio>
         )}
+      <button className={`sound-control nes-btn ${audioPlayed ? 'is-success':'is-error'}`} onClick={handleAudio}>
+        <img src={soundIcon}></img>
+      </button>
       <Snowfall
         style={{ position: 'absolute', top: 0 }}
         snowflakeCount={150}

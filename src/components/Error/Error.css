@@ -1,0 +1,49 @@
+.error-container {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 150px;
+    max-width: 600px;
+    justify-content: center;
+    align-items: end;
+}
+.error-container div{
+    animation: appear 1.5s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0; /* Comienza invisible */
+    }
+    60% {
+        opacity: 0; /* Aparece un poco */
+    }
+    100% {
+        opacity: 1; /* Aparece completamente */
+    }
+}
+
+.error-container img {
+    height: 110px;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+    animation: slide-up 1.5s ease-out forwards; /* Animación suave */
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%); /* Comienza abajo */
+        opacity: 0; /* Opcional: invisibilidad inicial */
+        z-index: -1;
+    }
+    60% {
+        transform: translateY(-10%); /* Rebote pequeño hacia arriba */
+        opacity: 1;
+        z-index: -1;
+    }
+    100% {
+        transform: translateY(0); /* Llega a la posición final */
+        z-index: 9;
+    }
+}

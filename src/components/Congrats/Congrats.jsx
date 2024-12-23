@@ -6,7 +6,7 @@ import Confetti from 'react-confetti';
 
 const Congrats = () => {
     const navigator = useNavigate();
-    const cardRef = useRef(null); // Referencia al contenedor
+    const cardRef = useRef(null);
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
     const handlerBack = () => {
@@ -14,20 +14,18 @@ const Congrats = () => {
     };
 
     useEffect(() => {
-        const updateDimensions = () => {
-            if (cardRef.current) {
-                const { offsetWidth, offsetHeight } = cardRef.current;
-                setDimensions({ width: offsetWidth, height: offsetHeight });
-            }
-        };
+        const cardElement = cardRef.current;
+        if (!cardElement) return;
 
-        updateDimensions();
+        const resizeObserver = new ResizeObserver(() => {
+            const { offsetWidth, offsetHeight } = cardElement;
+            setDimensions({ width: offsetWidth, height: offsetHeight });
+        });
 
-        // Escucha cambios en el tamaño de la ventana
-        window.addEventListener('resize', updateDimensions);
+        resizeObserver.observe(cardElement);
 
         return () => {
-            window.removeEventListener('resize', updateDimensions);
+            resizeObserver.disconnect();
         };
     }, []);
 
@@ -38,7 +36,7 @@ const Congrats = () => {
                     width={dimensions.width} 
                     height={dimensions.height}
                     numberOfPieces={70}
-                    wind={0.01}
+                    wind={0}
                 />
                 <h2 className="nes-text is-warning">¡Felicidades!</h2>
                 <div className="congrats-gif-container">
@@ -55,4 +53,5 @@ const Congrats = () => {
 };
 
 export default Congrats;
+
 

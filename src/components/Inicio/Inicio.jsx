@@ -9,22 +9,23 @@ const Inicio = () => {
         navigate('/quiz')
     }
 
-  return (
-    <div className="nes-container is-dark">
-        <h1 className="nes-text is-error">
-        Feliz
-        </h1>
-        <h1 className="nes-text is-error">
-        Navidad
-        </h1>
-        <p>
-            Soy tu amigo invisible y te desafio a descubrime...
-        </p>
-        <button className="nes-btn is-warning" onClick={handlerStart}>
-            Empezamos?
-        </button>
-    </div>
-  )
+    return (
+        <div className="nes-container is-dark">
+            <h1 className="nes-text is-error">
+            Feliz
+            </h1>
+            <h1 className="nes-text is-error">
+            Navidad
+            </h1>
+            <h2>🎄🎄🎄🎄🎄🎄🎄🎄</h2>
+            <p>
+                Hola👋, soy tu amigo invisible y te desafío a descubrirme...
+            </p>
+            <button className="nes-btn is-warning" onClick={handlerStart}>
+                ¿Empezamos?
+            </button>
+        </div>
+    )
 }
 
 export default Inicio

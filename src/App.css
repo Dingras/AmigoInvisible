@@ -1,0 +1,18 @@
+.sound-control {
+    position: fixed !important;
+    top: 1vh !important;
+    right: 1vw !important;
+    width: 40px;
+    height: 40px;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 2px;
+    z-index: 9999;
+    overflow: hidden;
+}
+.sound-control img{
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+}

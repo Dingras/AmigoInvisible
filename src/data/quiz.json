@@ -1,23 +1,28 @@
 [
-    {
-      "question": "¿De qué lugar creen que soy, según mi gentilicio?",
-      "answers": ["Marplatense", "Juarense", "Bahiense", "Mapuche"],
-      "correctAnswer": "Juarense"
-    },
-    {
-      "question": "En casa somos:",
-      "answers": ["2", "5", "3", "4"],
-      "correctAnswer": "3"
-    },
-    {
-      "question": "Me identifico como:",
-      "answers": ["Hombre", "Mujer", "No binario", "LGTBQ+"],
-      "correctAnswer": "Hombre"
-    },
-    {
-      "question": "Me gusta el:",
-      "answers": ["Baile", "Tenis", "Equitacion", "Automovilismo"],
-      "correctAnswer": "Automovilismo"
-    }
-  ]
+  {
+    "question": "¿De qué lugar creen que soy?",
+    "answers": ["Mar del Plata", "Benito Juárez", "Bahía Blanca", "Buenos Aires"],
+    "correctAnswer": "Benito Juárez",
+    "help":"Dale... que no está tan lejos."
+  },
+  {
+    "question": "En mi casa somos:",
+    "answers": ["2", "5", "3", "4"],
+    "correctAnswer": "3",
+    "help":"Piensa en algo impar pero no tan grande."
+  },
+  {
+    "question": "Me identifico como:",
+    "answers": ["Hombre", "Mujer", "No binario", "Perro"],
+    "correctAnswer": "Hombre",
+    "help":"Responde como un ..."
+  },
+  {
+    "question": "Me gusta el:",
+    "answers": ["Baile", "Tenis", "Equitación", "Automovilismo"],
+    "correctAnswer": "Automovilismo",
+    "help":"Rumm Rummm."
+  }
+]
+
   
