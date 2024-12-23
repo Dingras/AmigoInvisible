@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './Congrats.css';
-import celebrationGif from '../../assets/images/celebration.gif';
 import celebrationImg from '../../assets/images/celebration.png';
 import { useNavigate } from 'react-router-dom';
 import Confetti from 'react-confetti';
+import Swal from 'sweetalert2';
 
 const Congrats = () => {
     const navigator = useNavigate();
@@ -13,6 +13,18 @@ const Congrats = () => {
     const handlerBack = () => {
         navigator('/');
     };
+
+    const handlerImage = () => {
+        Swal.fire({
+            imageUrl: 'https://github.com/Dingras/AmigoInvisible/blob/main/src/assets/images/celebration.png?raw=true',
+            imageHeight: '50vh',
+            background: '#212529',
+            customClass: {
+                confirmButton: 'nes-btn is-warning',
+                image: 'congrats-gif'
+            }
+        });
+    }
 
     useEffect(() => {
         const cardElement = cardRef.current;
@@ -41,7 +53,7 @@ const Congrats = () => {
                 />
                 <h2 className="nes-text is-warning">¡Felicidades!</h2>
                 <div className="congrats-gif-container">
-                    <img src={celebrationImg} alt="Celebration" className="congrats-gif" />
+                    <img src={celebrationImg} alt="Celebration" className="congrats-gif" onClick={handlerImage}/>
                 </div>
                 <p className="congrats-text">🎉¡Me descubriste!🎉</p>
             </div>
