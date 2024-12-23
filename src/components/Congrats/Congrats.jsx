@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './Congrats.css';
-import celebrationImg from '../../assets/images/celebration.png';
+import celebrationImg from '../../assets/images/celebration2.png';
 import { useNavigate } from 'react-router-dom';
 import Confetti from 'react-confetti';
 import Swal from 'sweetalert2';
